@@ -24,7 +24,7 @@ jobs:
 
     - name: Extract Zip File
       run: |
-        unzip -q RSInstitutePortal_Android_Source.zip -d extracted_project
+        unzip -q "RSInstitutePortal_Android_Source .zip" -d extracted_project
 
     - name: Build APK with Gradle
       run: |
